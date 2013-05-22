@@ -1,12 +1,12 @@
 <% if user_signed_in? %>
-	<h1> Welcome Back</h1>
+	<h1> Welcome Back Old Friend</h1>
 <% else %>
 <div class="hero-unit">
 	<h1>Lets Get Started</h1>
 	<p>
 		You found 
 		<%= link_to "Booya", "http://epic-grandeur.tumblr"%>
-	</p>
+	</p> 
 	<p>
 		<%= link_to "Sign up Now!", new_user_registration_path, class: "btn btn-primary" %>
 	</p>
