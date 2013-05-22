@@ -5,6 +5,7 @@ gem 'bootstrap-sass', '~> 2.3.1.0'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
+gem 'aws-sdk'
 
 
 # Bundle edge Rails instead:
